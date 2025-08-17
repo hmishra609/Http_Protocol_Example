@@ -39,3 +39,29 @@ These two headers are common to most requests:
 
 
 
+# Using local SpringBoot Web App to test this using telnet
+
+
+start a spring boot webserver and try accessing the endpoint using telnet 
+
+
+
+#### This will start the telnet
+```
+telnet localhost 8080
+```
+
+#### This will establish a http connection
+
+```
+GET / HTTP/1.1
+Host: localhost
+Connection: close
+
+```
+
+
+
+
+
+
